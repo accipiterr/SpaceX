@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  background-color: #010001;
+  padding-top: 53px;
+  font-family: "Roboto", sans-serif;
+}
+.header {
+  margin: auto;
+  max-width: 1231;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  list-style: none;
+}
+.item-link {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 12px;
+  line-height: 14px;
+}
+/*ниже сделала ссылки из второго списка серыми, как в макете.
+Есть ли способ использовать меньше строк?*/
+.sec-item-link {
+  color: #808080;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 12px;
+  line-height: 14px;
+}
