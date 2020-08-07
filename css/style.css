@@ -67,10 +67,11 @@ body {
   margin: auto;
 }
 .features {
+  position: relative;
   margin: auto;
   max-width: 1230px;
   width: 90%;
-  padding: 50px 0;
+  padding: 100px 0;
 }
 .features-title {
   font-weight: bold;
@@ -79,3 +80,69 @@ body {
   text-transform: uppercase;
   margin-bottom: 45px;
 }
+.table {
+  margin-bottom: 218px;
+}
+.table-column {
+  width: 300px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+}
+.features-text {
+  width: 490px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 29px;
+}
+.rocket {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  z-index: 99;
+  max-width: 350px;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding: 150px 0;
+  align-items: center;
+}
+.footer-nav {
+  padding-top: 43px;
+  padding-bottom: 28px;
+}
+.footer-nav .item-link {
+  font-size: 18px;
+  line-height: 21px;
+}
+.footer-text {
+  font-size: 18px;
+  line-height: 21px;
+  color: #808080;
+  text-decoration: none;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.footer-link {
+  font-size: 18px;
+  line-height: 21px;
+  color: #808080;
+  text-decoration: none;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  min-width: 260px;
+  min-height: 60px;
+  text-align: center;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 6px;
+  text-decoration: none;
+}
+/*так же можно задать внутренние отступы с помощью padding*/
