@@ -3,6 +3,7 @@ body {
   background-color: #010001;
   padding-top: 53px;
   font-family: "Roboto", sans-serif;
+  color: #ffffff;
 }
 .header {
   margin: auto;
@@ -25,13 +26,56 @@ body {
   font-size: 12px;
   line-height: 14px;
 }
-/*ниже сделала ссылки из второго списка серыми, как в макете.
-Есть ли способ использовать меньше строк?*/
-.sec-item-link {
+.secondary-menu .item-link {
   color: #808080;
-  text-decoration: none;
-  margin-left: 10px;
-  margin-right: 10px;
-  font-size: 12px;
-  line-height: 14px;
+}
+.main {
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  margin-top: 120px;
+}
+.title {
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 75px;
+  margin-top: 0;
+  margin-bottom: 26px;
+}
+.description {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: lowercase;
+  max-width: 268px;
+  margin: auto;
+}
+.description:after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 56px;
+  margin: auto;
+  margin-top: 26px;
+  background-color: #ffffff;
+}
+.video {
+  height: 760px;
+  max-width: 1230px;
+  width: 90%;
+  display: flex;
+  margin: auto;
+}
+.features {
+  margin: auto;
+  max-width: 1230px;
+  width: 90%;
+  padding: 50px 0;
+}
+.features-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 34px;
+  text-transform: uppercase;
+  margin-bottom: 45px;
 }
